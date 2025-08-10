@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+}
+
+.wrapper {
+  background-image: url('основной фон.png');
+  width: 1440px;
+}
+
+a {
+    text-decoration: none;
+}
+header nav ul li:not(.home):not(.btn) a {
+    color: black;
+}
+ header nav ul li.btn a {
+    background: #5956E9;
+    padding: 12px 15px 8px 16px;
+    border-radius: 5px;
+    color: white;
+ }
+
+.container {
+    width: 1171px;
+    margin: 0 auto;
+    padding: 91px 0;
+}
+header {
+    padding: 40px 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ header nav ul li {
+    color: black;
+ }
+.logo {
+    width: 167px;
+    height: 28px;
+    top: 90px;
+    left: 637px;
+    position: static;
+    background: white;
+    padding: 31px 17px 31px 16px;
+    border-radius: 5px;
+}
+
+.left {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    float: left;
+    font-size: 20px;
+    background-color: white;
+    padding: 17px 40px;
+    border-radius: 5px;
+}
+
+.right {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    float: right;
+    font-size: 20px;
+    background-color: white;
+    padding: 17px 40px;
+    border-radius: 5px;
+}
+
+.home {
+    text-decoration: underline;
+}
+.hero {
+    padding-bottom: 40px;
+}
+
+.hero--info {
+    width: 570px;
+    height: 432px;
+    background-color: white;
+}
+
+.hero--info h1 {
+    color: #5956E9;
+    font-size: 48.83px;
+    font-weight: 700;
+    padding: 40px 23px 18px 30px;
+}
+.hero--info p {
+    color: #6C6C72;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px 53px 52px 30px;
+}
+
+.hero--info h2 {
+    color: #232233;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 52px 251px 5px 30px;
+}
+
+.google {
+    width: 314px;
+    height: 47px;
+    padding: 5px 226px 40px 30px;
+}
+.mobilka {
+    position: absolute;
+    width: 646px;
+    height: 725px;
+    left: 879px;
+    top: 216px;
+}
