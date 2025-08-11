@@ -12,7 +12,8 @@ body {
 
 .wrapper {
   background-image: url('основной фон.png');
-  width: 1440px;
+  width: 100%;
+  min-height: 1024px;
 }
 
 a {
@@ -43,40 +44,53 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
- header nav ul li {
+header nav ul li {
     color: black;
- }
+}
+
 .logo {
     width: 167px;
     height: 28px;
     top: 90px;
     left: 637px;
-    position: static;
-    background: white;
-    padding: 31px 17px 31px 16px;
-    border-radius: 5px;
+    position: center;
+    margin-right: 40px;
+    margin-left: 45px;
+}
+
+.logo-wrapper {
+    background-image: url("Rectangle\ 2.png");
+    background-position: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+header nav {
+    background-image: url("Rectangle\ 1.png");
+    background-position: center;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 40px;
 }
 
 .left {
     list-style: none;
-    display: flex;
     gap: 40px;
     float: left;
     font-size: 20px;
-    background-color: white;
-    padding: 17px 40px;
-    border-radius: 5px;
 }
 
 .right {
     list-style: none;
-    display: flex;
     gap: 40px;
     float: right;
     font-size: 20px;
-    background-color: white;
-    padding: 17px 40px;
-    border-radius: 5px;
 }
 
 .home {
@@ -112,6 +126,7 @@ nav {
     padding: 52px 251px 5px 30px;
 }
 
+
 .google {
     width: 314px;
     height: 47px;
@@ -123,4 +138,27 @@ nav {
     height: 725px;
     left: 879px;
     top: 216px;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.mail {
+    width: 18px;
+    height: 18px;
+}
+.contact-item a {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.phone {
+    padding: 0 18px 0 47px;
+}
+
+.four-elements {
+    width: 162px;
+    height: 18px;
+    padding: 0 0 0 580px;
 }
