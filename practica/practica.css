@@ -11,7 +11,7 @@ body {
 }
 
 .wrapper {
-  background-image: url('основной фон.png');
+  background-image: url('img/основной фон.png');
   width: 100%;
   min-height: 1024px;
 }
@@ -22,12 +22,12 @@ a {
 header nav ul li:not(.home):not(.btn) a {
     color: black;
 }
- header nav ul li.btn a {
+header nav ul li.btn a {
     background: #5956E9;
     padding: 12px 15px 8px 16px;
     border-radius: 5px;
     color: white;
- }
+}
 
 .container {
     width: 1171px;
@@ -161,4 +161,34 @@ header nav ul {
     width: 162px;
     height: 18px;
     padding: 0 0 0 580px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper2 {
+    width: 100%;
+}
+.container2 {
+    margin: 120px 220px 120px 161px;
+}
+.container2 h2 {
+    font-size: 31.25px;
+    font-weight: 700;
+    text-align: center;
+}
+.container2 h3 {
+    font-size: 16px;
+    font-weight: 400;
+    width: 601px;
+    height: 70px;
+    text-align: center;
+    padding: 18px 285px 638px 258px;
+}
+
+.android {
+    position: relative;
+    top: 196px;
+    width: 386px;
+    height: 526px;
 }
