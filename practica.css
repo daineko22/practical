@@ -6,6 +6,11 @@ body {
     font-size: 16px;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 .wrapper {
   background-image: url('img/fon.png');
   width: 100%;
@@ -77,7 +82,7 @@ header nav ul {
     gap: 40px;
     float: left;
     font-size: 20px;
-    padding: 0 39px 0 5px;
+    padding: 0 110px 0 5px;
 }
 
 .right {
@@ -112,7 +117,7 @@ header nav ul {
     color: #6C6C72;
     font-size: 16px;
     font-weight: 400;
-    padding: 0px 53px 30px 30px;
+    padding: 18px 53px 52px 30px;
     line-height: 24px;
 }
 
@@ -120,7 +125,7 @@ header nav ul {
     color: #232233;
     font-size: 25px;
     font-weight: 600;
-    padding: 0 0 52px 30px;
+    padding: 0 0 5px 30px;
 }
 
 .mobilka {
@@ -156,15 +161,13 @@ header nav ul {
     position: absolute;
     width: 149px;
     height: 47px;
-    top: 770px;
-    left: 165px;
+    padding: 5px 14px 40px 30px;
 }
 .appstore {
     position: absolute;
     width: 149px;
     height: 47px;
-    top: 768px;
-    left: 328px;
+    padding: 3px 226px 40px 193px;
 }
 
 
@@ -176,6 +179,7 @@ header nav ul {
 }
 .container2 h1 {
     text-align: center;
+    top: 120px;
 }
 
 .container2 h2 {
@@ -185,7 +189,7 @@ header nav ul {
     color: #6C6C72;
     font-size: 16px;
     width: 601px;
-    padding: 5px 285px 638px 258px;
+    padding: 18px 285px 638px 258px;
 }
 .androed {
     width: 386px;
@@ -198,13 +202,13 @@ header nav ul {
     width: 24px;
     height: 24px;
     position: absolute;
-    padding: 35px 528px 106px 18px;
+    padding: 30px 528px 106px 18px;
 }
 .pryamo h2 {
     font-weight: 600;
     font-size: 20px;
     text-align: left;
-    padding: 22px 327px 0px 59px;
+    padding: 33px 327px 0px 59px;
 }
 .pryamo h3 {
     font-weight: 400;
@@ -213,7 +217,7 @@ header nav ul {
     color: #6C6C72;
     font-size: 16px;
     width: 491px;
-    padding: 0 20px 21px 59px;
+    padding: 12px 20px 21px 59px;
 }
 .pryamo {
     width: 570px;
@@ -228,7 +232,7 @@ header nav ul {
     font-weight: 600;
     font-size: 20px;
     text-align: left;
-    padding: 22px 327px 0px 59px;
+    padding: 33px 376px 0px 60px;
 }
 
 .pryamo2 h3 {
@@ -238,7 +242,7 @@ header nav ul {
     color: #6C6C72;
     font-size: 16px;
     width: 491px;
-    padding: 0 20px 21px 59px;
+    padding: 12px 20px 21px 59px;
 }
 
 .pryamo2 {
@@ -254,15 +258,14 @@ header nav ul {
     width: 24px;
     height: 24px;
     position: absolute;
-    padding: 35px 528px 106px 18px;
+    padding: 30px 528px 106px 18px;
 }
 
 .pryamo3 h2 {
     font-weight: 600;
     font-size: 20px;
     text-align: left;
-    padding: 22px 327px 0px 59px;
-    white-space: nowrap;
+    padding: 33px 279px 0px 60px;
 }
 
 .pryamo3 h3 {
@@ -272,7 +275,7 @@ header nav ul {
     color: #6C6C72;
     font-size: 16px;
     width: 491px;
-    padding: 0 20px 21px 59px;
+    padding: 12px 20px 21px 59px;
 }
 
 .pryamo3 {
@@ -288,5 +291,130 @@ header nav ul {
     width: 24px;
     height: 24px;
     position: absolute;
-    padding: 35px 528px 106px 18px;
+    padding: 30px 528px 106px 18px;
+}
+
+.blok3 {
+  background-image: url('img/fon.png');
+  width: 1440px;
+  min-height: 1710px;
+  position: relative;
+}
+
+.traid {
+    position: absolute;
+    width: 375px;
+    height: 812px;
+    border-radius: 40px;
+    top: 547px;
+    left: 532px;
+}
+
+.blok33 h1 {
+    font-weight: 700;
+    font-size: 31.25px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 120px;
+}
+
+.blok33 h2 {
+    width: 601px;
+    height: 70px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 186px 420px 0px 419px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.blok33 h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    padding: 22px 613px 0 613px;
+}
+.comment {
+    width: 50px;
+    height: 50px;
+    padding: 60px 694px 0 696px;
+}
+.blok3 h4 {
+    color: white;
+    width: 297px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 18px 572px 0 571px;
+    line-height: 24px;
+}
+
+.iphone {
+    width: 50px;
+    height: 50px;
+    padding: 122px 433px 0 957px;
+}
+
+.blok33 .iso {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: left;
+    padding: 22px 128px 0px 966px;
+}
+
+.blok33 .text {
+    text-align: left;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 18px 177px 0px 966px;
+}
+
+.retinaa {
+    width: 56px;
+    height: 56px;
+    padding: 342px 418px 0 966px;
+}
+.blok33 .retina {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: left;
+    padding: 22px 132px 0px 966px;
+}
+.blok33 .text2 {
+    text-align: left;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 18px 177px 0px 966px;
+}
+.sup {
+    width: 50px;
+    height: 50px;
+    padding: 100px 695px 0 695px;
+}
+.blok33 .support {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 30px 501px 0 500px;
+}
+.blok33 .browser {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: right;
+    padding: 423px 60px 0px 193px; 
+}
+.elem2 .brow {
+    width: 50px;
+    height: 50px;
+    padding: 300px 60px 0 422px;
 }
