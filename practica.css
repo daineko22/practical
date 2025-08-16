@@ -169,252 +169,185 @@ header nav ul {
     height: 47px;
     padding: 3px 226px 40px 193px;
 }
+/* Моя реализация стилей для двух блоков ABOUT OUR APP И APP FEATURES */
 
-
-.wrapper2 {
-    width: 1144px;
-    height: 774px;
-    padding: 120px 220px 120px 161px;
-    position: relative;
-}
-.container2 h1 {
-    text-align: center;
-    top: 120px;
+/* about our app */
+.about-our-app-wrapper {
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.container2 h2 {
-    font-weight: 400;
-    text-align: center;
-    line-height: 24px;
-    color: #6C6C72;
-    font-size: 16px;
-    width: 601px;
-    padding: 18px 285px 638px 258px;
+.about-our-app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
 }
-.androed {
-    width: 386px;
+
+.about-our-app-android-image {
+    max-width: 386px;
+    width: 100%;
     height: 526px;
-    padding: 196px 758px 52px 0;
-    position: absolute;
 }
 
-.galka {
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    padding: 30px 528px 106px 18px;
-}
-.pryamo h2 {
-    font-weight: 600;
-    font-size: 20px;
-    text-align: left;
-    padding: 33px 327px 0px 59px;
-}
-.pryamo h3 {
-    font-weight: 400;
-    text-align: left;
-    line-height: 24px;
-    color: #6C6C72;
-    font-size: 16px;
-    width: 491px;
-    padding: 12px 20px 21px 59px;
-}
-.pryamo {
-    width: 570px;
-    height: 160px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.08);
-    border-radius: 10px;
-    position: absolute;
-    margin: 196px 0 418px 574px;
-}
-
-.pryamo2 h2 {
-    font-weight: 600;
-    font-size: 20px;
-    text-align: left;
-    padding: 33px 376px 0px 60px;
-}
-
-.pryamo2 h3 {
-    font-weight: 400;
-    text-align: left;
-    line-height: 24px;
-    color: #6C6C72;
-    font-size: 16px;
-    width: 491px;
-    padding: 12px 20px 21px 59px;
-}
-
-.pryamo2 {
-    width: 570px;
-    height: 160px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.08);
-    border-radius: 10px;
-    position: absolute;
-    margin: 396px 0 418px 574px;
-}
-
-.galka2 {
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    padding: 30px 528px 106px 18px;
-}
-
-.pryamo3 h2 {
-    font-weight: 600;
-    font-size: 20px;
-    text-align: left;
-    padding: 33px 279px 0px 60px;
-}
-
-.pryamo3 h3 {
-    font-weight: 400;
-    text-align: left;
-    line-height: 24px;
-    color: #6C6C72;
-    font-size: 16px;
-    width: 491px;
-    padding: 12px 20px 21px 59px;
-}
-
-.pryamo3 {
-    width: 570px;
-    height: 160px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.08);
-    border-radius: 10px;
-    position: absolute;
-    margin: 596px 0 418px 574px;
-}
-
-.galka3 {
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    padding: 30px 528px 106px 18px;
-}
-
-.blok3 {
-  background-image: url('img/fon.png');
-  width: 1440px;
-  min-height: 1710px;
-  position: relative;
-}
-
-.traid {
-    position: absolute;
-    width: 375px;
-    height: 812px;
-    border-radius: 40px;
-    top: 547px;
-    left: 532px;
-}
-
-.blok33 h1 {
+.about-our-app-title {
     font-weight: 700;
     font-size: 31.25px;
-    text-align: center;
-    color: white;
-    position: relative;
-    top: 120px;
+    line-height: 47.25px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
 }
 
-.blok33 h2 {
-    width: 601px;
-    height: 70px;
+.about-our-app-subtitle-container {
+    max-width: 600px;
+    width: 100%;
     text-align: center;
+}
+
+.about-our-app-subtitle-text {
     font-weight: 400;
-    line-height: 24px;
-    padding: 186px 420px 0px 419px;
-    color: #FFFFFF;
     font-size: 16px;
+    line-height: 24px;
+    color: #6C6C72;
 }
 
-.blok33 h3 {
-    color: white;
+.about-our-app-card {
+    max-width: 570px;
+    width: 100%;
+    padding: 30px 20px 20px 20px;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    border-radius: 10px;
+    background: #FFFFFF;
+    display: flex;
+    gap: 17px;
+}
+
+.about-our-app-card-image {
+    align-self: flex-start;
+}
+
+.about-our-app-card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.about-our-app-card-text h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.about-our-app-block-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about-our-app-cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+/* app features */
+.app-features-wrapper {
+    background: url('img/fon.png') no-repeat center center / cover;;
+}
+
+.app-features-container-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.app-features-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.app-features-title {
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 47.25px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+}
+
+.app-features-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFF;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.app-features-block-wrapper {
+    display: flex;
+    gap: 50px;
+}
+
+.app-features-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.app-features-outer-block {
+    align-items: center;
+}
+
+.app-features-image {
+    max-width: 50px;
+    width: 100%;
+    height: 50px;
+}
+
+.app-features-inner-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #FFFFFF;
+}
+
+.app-features-inner-title {
     font-weight: 600;
     font-size: 25px;
-    text-align: center;
-    padding: 22px 613px 0 613px;
+    line-height: 37.5px;
+    vertical-align: bottom;
+    text-transform: uppercase;
+
 }
-.comment {
-    width: 50px;
-    height: 50px;
-    padding: 60px 694px 0 696px;
+
+.app-features-inner-title h3 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37.5px;
+    vertical-align: bottom;
+    text-transform: uppercase;
+
 }
-.blok3 h4 {
-    color: white;
+
+.app-features-inner-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     width: 297px;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-    padding: 18px 572px 0 571px;
-    line-height: 24px;
 }
 
-.iphone {
-    width: 50px;
-    height: 50px;
-    padding: 122px 433px 0 957px;
+.app-features-phone-image {
+    border-radius: 40px;
 }
 
-.blok33 .iso {
-    color: white;
-    font-weight: 600;
-    font-size: 25px;
-    text-align: left;
-    padding: 22px 128px 0px 966px;
-}
-
-.blok33 .text {
-    text-align: left;
-    font-weight: 400;
-    line-height: 24px;
-    color: #FFFFFF;
-    font-size: 16px;
-    padding: 18px 177px 0px 966px;
-}
-
-.retinaa {
-    width: 56px;
-    height: 56px;
-    padding: 342px 418px 0 966px;
-}
-.blok33 .retina {
-    color: white;
-    font-weight: 600;
-    font-size: 25px;
-    text-align: left;
-    padding: 22px 132px 0px 966px;
-}
-.blok33 .text2 {
-    text-align: left;
-    font-weight: 400;
-    line-height: 24px;
-    color: #FFFFFF;
-    font-size: 16px;
-    padding: 18px 177px 0px 966px;
-}
-.sup {
-    width: 50px;
-    height: 50px;
-    padding: 100px 695px 0 695px;
-}
-.blok33 .support {
-    color: white;
-    font-weight: 600;
-    font-size: 25px;
-    padding: 30px 501px 0 500px;
-}
-.blok33 .browser {
-    color: white;
-    font-weight: 600;
-    font-size: 25px;
-    text-align: right;
-    padding: 423px 60px 0px 193px; 
-}
-.elem2 .brow {
-    width: 50px;
-    height: 50px;
-    padding: 300px 60px 0 422px;
+.app-features-left-side-image {
+    align-self: flex-end;
 }
