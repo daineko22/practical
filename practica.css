@@ -33,7 +33,7 @@ header nav ul li.btn a {
 .container {
     width: 1171px;
     margin: 0 auto;
-    padding: 91px 0;
+    padding: 91px 0 0 0;
 }
 
 header {
@@ -169,31 +169,31 @@ header nav ul {
     height: 47px;
     padding: 3px 226px 40px 193px;
 }
-/* Моя реализация стилей для двух блоков ABOUT OUR APP И APP FEATURES */
 
-/* about our app */
-.about-our-app-wrapper {
+
+
+.about-our-wrapper {
     display: flex;
-    gap: 60px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 60px;
 }
 
-.about-our-app-container {
+.container-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 18px;
 }
 
-.about-our-app-android-image {
+.androed {
     max-width: 386px;
     width: 100%;
     height: 526px;
 }
 
-.about-our-app-title {
+.shapka-2 {
     font-weight: 700;
     font-size: 31.25px;
     line-height: 47.25px;
@@ -201,20 +201,20 @@ header nav ul {
     text-transform: uppercase;
 }
 
-.about-our-app-subtitle-container {
-    max-width: 600px;
+.podshapka-container {
+    max-width: 601px;
     width: 100%;
     text-align: center;
 }
 
-.about-our-app-subtitle-text {
+.podshapka-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #6C6C72;
 }
 
-.about-our-app-card {
+.cartochka {
     max-width: 570px;
     width: 100%;
     padding: 30px 20px 20px 20px;
@@ -225,44 +225,40 @@ header nav ul {
     gap: 17px;
 }
 
-.about-our-app-card-image {
+.galka {
     align-self: flex-start;
 }
 
-.about-our-app-card-text {
+.text-vnutri {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-.about-our-app-card-text h2 {
+.text-vnutri h2 {
     font-weight: 600;
     font-size: 20px;
 }
 
-.about-our-app-block-wrapper {
+.blok-2-pic {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.about-our-app-cards-wrapper {
+.cartochki {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 
-/* app features */
+
 .app-features-wrapper {
-    background: url('img/fon.png') no-repeat center center / cover;;
+    background: url('img/fon.png') no-repeat center center / cover;
+    width: 1440px;
 }
 
-.app-features-container-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-}
 
 .app-features-title-wrapper {
     display: flex;
@@ -292,7 +288,7 @@ header nav ul {
 
 .app-features-block-wrapper {
     display: flex;
-    gap: 50px;
+    justify-content: space-between;
 }
 
 .app-features-block {
@@ -300,6 +296,7 @@ header nav ul {
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
+    width: 346px;
 }
 
 .app-features-outer-block {
@@ -317,6 +314,16 @@ header nav ul {
     flex-direction: column;
     gap: 20px;
     color: #FFFFFF;
+    padding: 60px 0 60px 0;
+}
+
+.app-features-inner-block-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #FFFFFF;
+    padding: 60px 0 60px 0;
+    text-align: right;
 }
 
 .app-features-inner-title {
@@ -334,7 +341,11 @@ header nav ul {
     line-height: 37.5px;
     vertical-align: bottom;
     text-transform: uppercase;
+}
 
+.app-features-inner-title-niz h3 {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .app-features-inner-subtitle {
@@ -344,10 +355,129 @@ header nav ul {
     width: 297px;
 }
 
+.app-features-inner-subtitle-verx-niz {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 297px;
+    text-align: center;
+}
+
+.app-features-inner-subtitle-left {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 297px;
+    padding: 0 0 0 49px;
+}
+
 .app-features-phone-image {
     border-radius: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .app-features-left-side-image {
     align-self: flex-end;
+}
+
+.blok4 {
+    background-color: #232233;
+    width: 1440px;
+    height: 542px;
+}
+.vse-elem {
+    width: 1169px;
+    margin: 0 auto;
+    display: flex;
+    color: white;
+    margin-top: 235px;
+    gap: 246px;
+}
+.elements {
+    display: flex;
+    gap: 66px;
+}
+
+.title-logo {
+    font-size: 31.25px;
+    font-weight: 700;
+}
+.title-subtitle {
+    margin-bottom: 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.subt {
+    font-size: 16px;
+    line-height: 24px;
+    width: 334px;
+}
+.icons-4-4 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.palka {
+    border-right: 1px solid white;
+}
+.icons-4 {
+    width: 24px;
+    height: 24px;
+}
+.quick-link {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.title-quick {
+    font-weight: 600;
+    font-size: 25px;
+    white-space: nowrap;
+}
+.subtitle-link {
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.news-letter {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.news-blok {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+.address {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 369px;
+    height: 50px;
+    border-radius: 4px;
+}
+.email-address {
+    color: #6C6C72;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 18px 18px;
+}
+.send-plane {
+    width: 24px;
+    height: 24px;
+}
+.send-plane-wrapper {
+    background-color: #5956E9;
+    width: 52px;
+    height: 46px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    margin-left: 140px;
 }
