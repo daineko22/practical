@@ -33,7 +33,6 @@ header nav ul li.btn a {
 .container {
     width: 1171px;
     margin: 0 auto;
-    padding: 91px 0 0 0;
 }
 
 header {
@@ -98,6 +97,7 @@ header nav ul {
 }
 .hero {
     padding-bottom: 40px;
+    margin-top: 220px;
 }
 
 .hero--info {
@@ -177,7 +177,6 @@ header nav ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 60px;
 }
 
 .container-2 {
@@ -185,6 +184,7 @@ header nav ul {
     flex-direction: column;
     align-items: center;
     gap: 18px;
+    margin: 91px 0 60px 0;
 }
 
 .androed {
@@ -244,6 +244,7 @@ header nav ul {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 60px;
 }
 
 .cartochki {
@@ -265,6 +266,7 @@ header nav ul {
     flex-direction: column;
     align-items: center;
     gap: 18px;
+    margin-top: 91px;
 }
 
 .app-features-title {
@@ -486,6 +488,7 @@ header nav ul {
     align-items: center;
     justify-content: center;
     margin-top: 18px;
+    gap: 18px;
 }
 .palochka {
     width: 1167px;
